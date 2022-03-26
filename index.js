@@ -50,9 +50,10 @@ app.get("/data", async (req, res) => {
 /****************end routes************/
 
 
+let Port = process.env.PORT || 8080
 
 /* Listening to 8080  */
-app.listen(8080, () => {
+app.listen(Port, () => {
     console.log("Server is running on port 8080");
 })
 
