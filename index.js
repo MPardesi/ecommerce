@@ -15,7 +15,7 @@ app.use(express.json());
 
 
 // make public folder accessible
-app.use(express.static(__dirname + '/public'));
+// app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/build'));
 
 
